@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0;padding:0; }
+.calendar { background:#f2f2f2; width:601px; margin-left:auto; margin-right:auto; margin-top:20px; border:1px solid #CCC;}
+.calendar .calendar-header { background:#333; color:#e2e2e2; font-family:Georgia, "Times New Roman", Times, serif; padding:10px; text-align:center; font-weight:bold;  }
+.calendar table { border-collapse:collapse; width:100%; }
+.calendar .calendar-header  a { text-decoration:none; color:#fff; }
+.calendar .calendar-header  a:hover { text-decoration:underline; }
+.holiday-bg{ background:url(/kwtmtc/static/css/calimg/current-bg.png) repeat-x; border:1px solid #3F9;  }
+.calendar table thead th {  text-align:center; border-bottom:1px solid #999; padding:8px 4px; font-family: Arial,sans-serif; font-weight:100; text-shadow:#fff 1px 1px 0px; }
+.calendar table tbody tr td p{ background:url(/kwtmtc/static/css/calimg/calender-default.png) repeat-x;    border: 1px solid #fff; border-right:1px solid #d6d6d6;  font-family: Arial,sans-serif;  border-bottom:1px solid #d6d6d6;  width:74px; height:70px; display:block;  text-align:center;padding:5px;  text-shadow:#fff 1px 1px 0px;   -moz-border-radius: 7px; -webkit-border-radius: 7px;  }
+.current-bg { background:url(/kwtmtc/static/css/calimg/current-bg.png) repeat-x!important; border:1px solid #0CF!important; }
+.calendar table tbody tr td p:hover { background:url(/kwtmtc/static/css/calimg/hover-bg.png) repeat-x; border:1px solid #3F9;  }

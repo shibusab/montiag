@@ -1,0 +1,161 @@
+
+body {
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+a, a:visited, a:link { color:#000000; text-decoration:underline; }
+
+a:hover { color: #666666; }
+
+h1 { font-size:18px; margin:0; color:#333333; border-bottom: 1px dashed #333333; }
+
+h2 { font-size:12px; margin:0; color:#333333; border-bottom: 1px dashed #333333; border-top:1px dotted #333333; }
+
+h1 a, h1 a:visited, h1 a:link { text-decoration:none; }
+
+h2 a, h2 a:visited, h2 a:link { text-decoration:none; padding:10px; line-height:25px; }
+
+h2 img { margin-right:5px; border:0; }
+
+input {
+}
+
+div.wrap1 {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	border:1px solid #c3c3c3;
+}
+
+div.wrap1 .wrap2 {
+width: 100%;
+}
+
+div.wrap2 .logo {
+	display: none;
+
+}
+
+div.logo .slogan {
+display: none;
+}
+
+div.info, div.info1 {
+display: none;
+}
+
+div.info1 { 
+display: none;
+}
+
+div.info1 a, div.info1 a:link, div.info1 a:visited { color:#999; }
+
+div.info1 a:hover { color: #666; }
+
+div.wrap2 .leftpanel, div.wrap2 .rightpanel {
+display: none;
+}
+
+div.wrap2 .mainpanel {
+	width:100%;
+	float:left;
+}
+
+div.leftpanel .header, div.rightpanel .header {
+display: none;
+}
+
+.text { padding:8px; text-align:justify; }
+.text img { margin-right:10px; margin-bottom: 10px; border:0;  float:left; }
+.text_ { padding:15px; text-align:justify; }
+.text_ img { vertical-align:middle; border:0; }
+
+span.divider {
+display: none;
+
+}
+
+div.rightpanel .inquiry, div.leftpanel .inquiry {
+display: none;
+
+}
+
+.inquiry a, .inquiry a:link, .inquiry a:visited, .inquiry a:hover { text-decoration:none; }
+
+.fieldset {
+display: none;
+}
+.legend {
+display: none;
+}
+
+div#menu .menu {
+display: none;
+}
+	
+*> div#menu .menu { margin-top: -11px; }
+	
+div#menu .menu ul {
+	display: none;
+}
+	
+*> div#menu .menu ul { margin-left:0; }
+	
+div#menu .menu li {
+display: none;
+}
+	
+div#menu li span.left {
+display: none;
+}
+	
+div#menu li span.hlavny {
+display: none;
+}
+	
+	
+div#menu li span.hlavny a, div#menu li span.hlavny a:visited, div#menu li span.hlavny a:link { color:#000000; }
+	
+div#menu li span.hlavny_ {
+display: none;
+}
+	
+div#menu li span.right {
+display: none;
+}
+	
+div#menu .menu a, div#menu .menu a:visited, div#menu .menu a:active {
+display: none;
+}
+
+div#menu .menu img {
+display: none;
+}
+	
+div#menu .menu a:hover { color:#FFFFFF; text-decoration:underline; }
+		
+	
+/* categories */
+
+ul#categories {
+display: none;
+}
+
+ul#categories li {
+display: none;
+}
+
+*> ul#categories li { margin-top: 0px; margin-bottom: 0px; }
+
+ul#categories li.selected {
+display: none;
+
+}
+
+ul#categories li a {
+display: none;
+}
+ul#categories li a:hover { 
+display: none;
+}

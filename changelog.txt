@@ -1,0 +1,15 @@
+5/4 -For multilanguage links at homepage, added a field HYPERLINK at CONFIG table and update HOMEPAGE, and in CONFIGMODEL.
+10/4-Incorporate Cache to the site
+26/4-Cache to EventModel
+    -Cache to PostModel
+27/4-Cache to MenuModel
+28/4-Optimization to the queries and Cache and deploy
+19/4- Worship Team pictures
+1/5- Logging the IP Address and queries
+2/5- Modifying the articles/add for errors; when error, error is listed in top of page, as well as the values are re-displayed - partial 
+09/5- Refactor ROUTER class 
+13/4 -Change Views folder according to the changes
+14/5-Implement Registry Pattern
+
+
+ 
